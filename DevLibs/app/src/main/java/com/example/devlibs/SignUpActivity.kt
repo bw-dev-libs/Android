@@ -11,7 +11,7 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.sign_up)
 
-        create_account.text = intent.getStringExtra("LOGIN_INTENT_CODE")
+
 
         create_account.setOnClickListener{
             if(username_field_signin.text.toString() != "" && password_field_signin.text.toString() != "") {
