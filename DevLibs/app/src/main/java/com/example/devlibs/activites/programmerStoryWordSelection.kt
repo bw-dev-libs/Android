@@ -1,7 +1,8 @@
-package com.example.devlibs
+package com.example.devlibs.activites
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.devlibs.R
 
 class programmerStoryWordSelection : AppCompatActivity() {
 

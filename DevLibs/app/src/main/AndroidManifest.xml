@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".programmerStoryWordSelection"></activity>
-        <activity android:name=".StorySelection" />
-        <activity android:name=".SignUpActivity">
+        <activity android:name=".activites.programmerStoryWordSelection"></activity>
+        <activity android:name=".activites.StorySelection" />
+        <activity android:name=".activites.SignUpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

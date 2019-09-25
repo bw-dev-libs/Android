@@ -1,8 +1,9 @@
-package com.example.devlibs
+package com.example.devlibs.activites
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.devlibs.R
 import kotlinx.android.synthetic.main.activity_story_selection.*
 
 class StorySelection : AppCompatActivity() {
