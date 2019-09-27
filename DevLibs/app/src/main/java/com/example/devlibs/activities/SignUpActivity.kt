@@ -1,16 +1,12 @@
-package com.example.devlibs.activites
+package com.example.devlibs.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.devlibs.R
 import kotlinx.android.synthetic.main.sign_up.*
-import retrofit.BackendAPI
-import retrofit2.Call
-import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 class SignUpActivity : AppCompatActivity() {
 
