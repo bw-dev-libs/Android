@@ -19,11 +19,13 @@ class CreateStory : AppCompatActivity() {
         var wordSix = word_6.text.toString()
         var wordSeven = word_7.text.toString()
 
+        btn_create_story.setOnClickListener{
        var storyString = "$wordSix was $wordSeven in a $wordThree $wordTwo  that resembled what Alan Turing first described as a $wordFour herring, a classic but quite the pickle! If it\n" +
                "wasn't for his expertise in $wordOne he would feel just the same as when he first faced $wordFive!"
 
        var sendStory = Intent(this, DashBoard::class.java)
         sendStory.putExtra("newStory", storyString)
+        startActivity(sendStory)}
 
 
     }

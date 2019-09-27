@@ -20,12 +20,17 @@ class DashBoard : AppCompatActivity() {
         temp_id.text = "Current User: $qstring "
 
 
-        var activeStories = mutableListOf<String>()
+       var activeStories = mutableListOf<String>()
 
         val addStory = intent.extras?: return
         val newStory = addStory.getString("newStory")
 
-        activeStories.add(newStory!!)
-        first_story.text = activeStories[0]
+
     }
+
+    val addStory = intent.extras
+    val newStory = addStory!!.getString("newStory")
+
+   // activeStories.add(newStory!!)
+   // first_story.text = activeStories[0]
 }
